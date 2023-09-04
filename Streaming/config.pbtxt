@@ -1,0 +1,22 @@
+name: "Streaming"
+backend: "python"
+input [
+    {
+        name: "audio"
+        data_type: TYPE_FP32
+        dims: [-1]
+    }
+]
+input [
+    {
+        name: "images_batch"
+        data_type: TYPE_FP32
+        dims: [-1,256,256,3]
+    }
+]
+instance_group [
+{
+    count: 1
+    kind: KIND_CPU
+}
+]
