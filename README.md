@@ -6,4 +6,10 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 
 本人是ffmpeg小白，从来没使用过，相关推流代码可能无法运行，本样例仅显示triton业务逻辑，见谅！欢迎大佬帮忙修正代码。
 
-![Image text](https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/pic01.png)https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/pic01.png)
+![Image text](https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/pic01.png)
+
+## 测试用轻量化hls推流方案，免流媒体服务器安装
+
+与triton的配合见下图
+
+![Image text](https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/m3u8looper/pipeline_demo.png)https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/m3u8looper/pipeline_demo.png)
