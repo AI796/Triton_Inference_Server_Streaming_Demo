@@ -12,4 +12,6 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 
 与triton的配合见下图
 
-![Image text](https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/m3u8looper/pipeline_demo.png)https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/m3u8looper/pipeline_demo.png)
+![Image text](https://github.com/AI796/Triton_Inference_Server_Streaming_Demo/blob/main/m3u8looper/pipeline_demo.png)
+
+代码在m3u8looper目录下，来自开源项目：https://github.com/eventh/m3u8looper
