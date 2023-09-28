@@ -18,6 +18,7 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 
 音视频同步代码可以使用torchvision单行代码实现:
 
+```
 torchvision.io.video.write_video(
 
         filename=r"test.ts",
@@ -39,5 +40,6 @@ torchvision.io.video.write_video(
         audio_codec = 'mp2',
         
     )
+```
 
 注意该方法使用了较早版本的pyav（有些方法已经弃用），如果是新版本pyav，需要做适当修改。支持的音视频编码格式也不是太多, ts切片经测试可以正常播放。
