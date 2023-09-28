@@ -16,6 +16,8 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 
 代码在m3u8looper目录下，来自开源项目：https://github.com/eventh/m3u8looper
 
+## 音视频同步
+
 音视频同步代码可以使用torchvision单行代码实现:
 
 ```
