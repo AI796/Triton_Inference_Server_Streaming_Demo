@@ -21,23 +21,14 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 ```
 torchvision.io.video.write_video(
         filename=r"test.ts",
-        
         # video_array=torch.zeros(size=(ts_length*FPS,256,256,3)),
-        
         video_array=torch.tensor(imgs),
-        
         fps=FPS,
-        
         video_codec = "libx264",
-        
         # audio_array=torch.zeros(size=ts_length*HZ)* 32767).reshape(1,-1),
-        
         audio_array=torch.tensor(wav[:160000]* 32767).reshape(1,-1),
-        
         audio_fps = HZ,
-        
         audio_codec = 'mp2',
-        
     )
 ```
 
