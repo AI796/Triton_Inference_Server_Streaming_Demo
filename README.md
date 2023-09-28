@@ -20,7 +20,6 @@ Streaming文件夹为下图Triton Inference Server中红色模块示例代码，
 
 ```
 torchvision.io.video.write_video(
-
         filename=r"test.ts",
         
         # video_array=torch.zeros(size=(ts_length*FPS,256,256,3)),
